@@ -18,18 +18,25 @@
             text-align: center;
             align-items: center;
             background-color: rgb(0, 62, 104);
-            padding-right: 220px;
+            padding-right: 170px;
             float: left;
             height: 100vh;
+            color: white;
         }
 
         .personal-info h1, .personal-info hr {
             margin-left: 200px;
         }
 
-        .personal-info p {
+        #contacto {
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+
+        #contacto-personal {
             margin-right: 200px;
-            color: white;
+            text-align: left;
+            padding-left: 50px;
         }
 
         body{
@@ -40,9 +47,18 @@
 <body>
     <div class="personal-info">
         <img src="images/me.jpeg" id="me">
-        <h1 style="color: white;">Arturo Esperanza</h1>
-        <hr width="300px">
-        <p style="font-size: 30px;"><b>Contacto</b></p>
+        <h1>Arturo Esperanza</h1>
+        <hr width="370px">
+        <p style="font-size: 30px;" id="contacto"><b>Contacto</b></p>
+
+        <div id="contacto-personal">
+            <p style="font-size: 20px;">Email: arturo_esperanza@outlook.com</p>
+            <p style="font-size: 20px;">Telefono: +503 713144913</p>
+            <p style="font-size: 20px;">Direccion: San Salvador, El Salvador</p>
+        </div>
+        
+        <p style="font-size: 30px;" id="contacto"><b>Formacion academica</b></p>
+        
     </div>
 </body>
 </html>
